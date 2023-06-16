@@ -102,7 +102,8 @@ class GamePortingToolkit < Formula
                               "--without-capi",
                               "--without-oss",
                               "--without-udev",
-                              "--without-krb5"]
+                              "--without-krb5",
+                              "--with-sdl2"]
 
     wine64_configure_options = ["--enable-win64",
                                 "--with-gnutls",
